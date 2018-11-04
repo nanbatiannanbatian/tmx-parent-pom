@@ -35,7 +35,7 @@ public class LicenseServiceController {
 
     @RequestMapping(value="{licenseId}",method = RequestMethod.POST)
     public String saveLicenses( @PathVariable("licenseId") String licenseId) {
-        return String.format("This is the post");
+        return String.format("This is the add post");
     }
 
     @RequestMapping(value="{licenseId}",method = RequestMethod.DELETE)
